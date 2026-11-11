@@ -1,2 +1,2 @@
 # mws-themes
-Free WordPress Here
+Free WordPress Themes
