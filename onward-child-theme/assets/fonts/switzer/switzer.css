@@ -1,0 +1,27 @@
+/*
+ * Switzer — self-hosted, variable font, woff2.
+ * Designed by Jérémie Hornus (Indian Type Foundry), distributed via Fontshare
+ * under the ITF Free Font License (see LICENSE-FFL.txt).
+ * One variable file per style covers the full weight axis (100–900).
+ *
+ * Registered under the plain family name "Switzer" so it can be used as
+ * font-family: 'Switzer' with any font-weight / font-style.
+ */
+
+/* Switzer — normal */
+@font-face {
+  font-family: 'Switzer';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('./files/switzer-variable-wght-normal.woff2') format('woff2');
+}
+
+/* Switzer — italic */
+@font-face {
+  font-family: 'Switzer';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('./files/switzer-variable-wght-italic.woff2') format('woff2');
+}

@@ -1,0 +1,14 @@
+/*
+ * Clash Grotesk — self-hosted, variable font, woff2.
+ * Designed by Indian Type Foundry, distributed via Fontshare under the
+ * ITF Free Font License (see LICENSE-FFL.txt).
+ * One variable file covers the weight axis (200–700). This family ships
+ * without an italic, so browsers will synthesize one if italic is requested.
+ */
+@font-face {
+  font-family: 'Clash Grotesk';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200 700;
+  src: url('./files/clash-grotesk-variable-wght-normal.woff2') format('woff2');
+}
