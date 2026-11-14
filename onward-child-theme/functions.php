@@ -54,6 +54,7 @@ function onward_child_registered_fonts() {
         'Switzer'       => 'switzer/switzer.css',
         'General Sans'  => 'general-sans/general-sans.css',
         'Clash Grotesk' => 'clash-grotesk/clash-grotesk.css',
+        'Overused Grotesk' => 'overused-grotesk/overused-grotesk.css',
     );
 }
 
