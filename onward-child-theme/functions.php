@@ -50,11 +50,8 @@ function onward_child_enqueue_styles() {
  */
 function onward_child_registered_fonts() {
     return array(
-        'Inter Tight'   => 'inter-tight/inter-tight.css',
-        'Switzer'       => 'switzer/switzer.css',
-        'General Sans'  => 'general-sans/general-sans.css',
-        'Clash Grotesk' => 'clash-grotesk/clash-grotesk.css',
-        'Overused Grotesk' => 'overused-grotesk/overused-grotesk.css',
+        'Inter Tight'       => 'inter-tight/inter-tight.css',
+        'Overused Grotesk'  => 'overused-grotesk/overused-grotesk.css',
     );
 }
 
@@ -71,7 +68,7 @@ function onward_child_fonts_override_css() {
     return "
         :root {
             --onward-child-font-body: 'Inter Tight', sans-serif;
-            --onward-child-font-heading: 'Switzer', 'Inter Tight', sans-serif;
+            --onward-child-font-heading: 'Inter Tight', sans-serif;
         }
 
         body,
